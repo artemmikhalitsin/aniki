@@ -1,0 +1,32 @@
+build/bin
+node_modules
+frontend/dist
+
+# Wails build artifacts
+*.exe
+*.dll
+*.so
+*.dylib
+aniki
+
+# Database files
+*.db
+*.db-shm
+*.db-wal
+
+# Config files (contain user-specific paths)
+config.json
+
+# Frontend
+frontend/wailsjs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
